@@ -20,16 +20,43 @@ function Projects() {
               isBlog={false}
               title="Mouse Mammary RNA-Seq Analysis"
               description="Analyzed RNA-seq data to identify differentially expressed genes linked to breast cancer."
-              ghLink="https://github.com/Sravz2433/Mouse-Mammary-RNA-Seq-Analysis"
+              ghLink="https://github.com/Sravz2433/mouse-mammary-rna-seq-analysis"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Evolutionary Tree Reconstruction of Ebolavirus"
-              description="Reconstructed the evolutionary history of Ebolavirus using phylogenetic analysis techniques."
-              ghLink="https://github.com/Sravz2433/Evolutionary-Tree-Reconstruction-of-Ebolavirus"
+              title="Evolutionary Tree Reconstruction of Ebolaviruses"
+              description="Built an evolutionary tree using genomic sequences to study diversity and transmission patterns."
+              ghLink="https://github.com/Sravz2433/ebolavirus-tree"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Comprehensive Analysis of SARS-CoV-2"
+              description="Conducted genome assembly, variant classification, and structural prediction of SARS-CoV-2 spike protein."
+              ghLink="https://github.com/Sravz2433/sars-cov2-analysis"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="E. coli Protein Visualization and Analysis"
+              description="Investigated key structural and functional properties of E. coli proteins using computational tools."
+              ghLink="https://github.com/Sravz2433/Ecoli-Protein-Visualization"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Rett Syndrome Pathogenicity Classifier"
+              description="Classify whether a given MECP2 mutation is benign or pathogenic using various ML and DL techniques."
+              ghLink="https://github.com/Sravz2433/MECP2-Analysis"
             />
           </Col>
 
@@ -63,6 +90,15 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
+              title="Drug Discovery using ML"
+              description="Built machine learning models to predict drug-target interactions and accelerate drug discovery processes."
+              ghLink="https://github.com/Sravz2433/Drug-Discovery-ML"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
               title="FASTA to 3D Protein Structure Prediction"
               description="Developed a pipeline to predict 3D protein structures from FASTA sequences using AlphaFold and MODELLER."
               ghLink="https://github.com/Sravz2433/FASTA-to-3D-Protein-Structure-Prediction"
@@ -72,9 +108,27 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
+              title="Protein Domain Identification with BLAST"
+              description="Automated protein domain annotation using BLAST against known domain databases."
+              ghLink="https://github.com/Sravz2433/protein-domain-annotation"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
               title="DNA Sequence GC Content Calculator"
               description="Created a Python script to calculate GC content across large DNA sequences to study genome stability."
               ghLink="https://github.com/Sravz2433/DNA-Sequence-GC-Content-Calculator"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Bioinformatics Tools and Pipelines"
+              description="Consolidated various bioinformatics workflows, including sequence alignment and variant analysis, into reusable Python scripts."
+              ghLink="https://github.com/Sravz2433/Bioinformatics"
             />
           </Col>
         </Row>
